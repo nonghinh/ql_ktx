@@ -1,0 +1,124 @@
+/*
+*
+*
+*/
+#wrapper{
+	background: #ffffff;
+}
+.panel,
+.panel-heading{
+	border-radius: 0;
+}
+.navbar-default{
+	background: #3F51B5;
+}
+.navbar-default .navbar-brand{
+	color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus{
+	color: #cccccc;
+}
+.navbar-default > ul > li > a{
+	color: #ffffff;
+}
+.navbar-default > ul > li > a:hover,
+.navbar-default > ul > li > a:focus{
+	background: #3A4BA8;
+}
+.nav .open > a, .nav .open > a:focus,
+.nav .open > a:hover{
+	background: #3A4BA8;
+}
+.sidebar{
+	background: #ffffff;
+}
+.sidebar ul li.active{
+	background: #eeeeee;
+}
+.sidebar ul li a.active >ul >li{
+	background: #ffffff;
+}
+.sidebar a{
+	color: #333333;
+}
+.sidebar ul li a:hover{
+	background: #eeeeee;
+}
+
+.dropdown-menu{
+	border-radius: 2px;
+}
+/*=== button navbar toggle*/
+.navbar-default .navbar-toggle{
+	border: 2px solid #ffffff;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover{
+	background-color: #3A4BA8;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background: #ffffff;
+}
+
+/*=== SEARCH form=======*/
+.custom-search-form .form-control{
+	box-shadow: none;
+	border-radius: 2px;
+}
+
+.custom-search-form .btn{
+	border-radius: 2px;
+}
+/*===== LOGIN PAGE=========*/
+.login-box{
+	margin-top: 40px;
+}
+.login-box .form-control{
+	border-radius: 2px;
+	box-shadow: none;
+}
+.login-box .input-group-addon{
+	border-radius: 2px 0 0 2px;
+	background: #3F51B5;
+	color: #ffffff;
+	border: #3A4BA8;
+}
+.login-box h1.login-title{
+	color: #ffffff;
+}
+.login-box .panel{
+	border: 1px solid #3A4BA8;
+}
+.login-box .panel-heading{
+	background: #3F51B5;
+}
+/*==========*/
+h1.caption{
+	text-transform: uppercase;
+	text-align: center;
+}
+#wrapper .form-control{
+	box-shadow: none;
+	border-radius: 2px
+}
+.btn{
+	border-radius: 2px;
+}
+.btn-primary{
+	background: #3F51B5;
+	border: 1px solid #3A4BA8;
+}
+.btn-primary:focus,
+.btn-primary:hover{
+	background: #3A4BA8;
+	border: 1px solid #3A4BA8;
+}
+span.required{
+	color: red;
+	padding-left: 10px;
+	font-size: 18px;
+}
+.alert{
+	border-radius: 2px;
+}

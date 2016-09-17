@@ -1,0 +1,70 @@
+/*
+*
+*
+*/
+body{
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+.large-logo{
+	height: 100px;
+}
+.navbar-default{
+	background: #ffffff;
+}
+.navbar-brand{
+	margin-right: 20px;
+}
+
+/*== Style navbar for desktop ==*/
+
+@media (min-width: 768px) {
+	/*=======*/
+	#search-box{
+		width:  100%;
+		height:  80px;
+		padding: 20px 10px;
+	}
+	#search-box .search{
+		height:  45px;
+		font-size: 20px;
+	}
+	#lookup-group .form-control{
+		height: 40px;
+	}
+	#cates{
+		
+	}
+	#cates li > a{
+		font-size: 16px;
+	}
+
+}
+/*==SeaRCH===============*/
+#search-box{
+	display: none;
+	border-bottom: 1px solid #dddddd;
+}
+#search-box .form-control{
+	box-shadow: none;
+	border: none;
+	border-bottom: 1px solid #dddddd;
+	border-radius: 0px;
+}
+#search-box .form-control:focus{
+	border-bottom: 2px solid #4fbfa8;
+}
+#btn-search .fa{
+	color: #777777;
+}
+#lookup-group .form-control{
+	border-radius: 2px;
+	box-shadow: none;
+}
+#lookup-group #inputLookup{
+	padding-left: 40px;
+}
+#lookup-group i.fa-search{
+	position: relative;
+	top: -30px;
+	left: 12px;
+}
